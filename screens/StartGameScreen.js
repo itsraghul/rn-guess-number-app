@@ -109,8 +109,9 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 25,
-    fontWeight: 'bold',
+    // fontWeight: 'bold',
     marginVertical: 20,
+    fontFamily: 'funky-one',
   },
   inputContainer: {
     width: 300,
@@ -125,6 +126,7 @@ const styles = StyleSheet.create({
   },
   norText: {
     fontSize: 20,
+    fontFamily: 'garden-reg',
   },
   button: {
     width: 80,

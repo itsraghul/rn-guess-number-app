@@ -20,9 +20,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   headerTitle: {
-    fontWeight: 'bold',
     color: 'black',
     fontSize: 25,
+    fontFamily: 'funky-one',
   },
 });
 
