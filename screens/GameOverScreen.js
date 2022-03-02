@@ -2,6 +2,7 @@ import React from 'react';
 import { View, StyleSheet, Button, Image, Text } from 'react-native';
 import TitleText from '../components/TitleText';
 import Colors from '../constants/colors';
+import MainButton from '../components/MainButton';
 
 const GameOverScreen = (props) => {
   return (
@@ -19,18 +20,14 @@ const GameOverScreen = (props) => {
         />
       </View>
       <View style={styles.box}>
-        <TitleText>
+        <TitleText style={{ textAlign: 'center' }}>
           Your phone needed{' '}
           <Text style={styles.highlight}>{props.numRounds} </Text> rounds to
           guess number <Text style={styles.highlight}>{props.userNumber}</Text>.
         </TitleText>
       </View>
       <View style={styles.button}>
-        <Button
-          title="New Game"
-          onPress={props.onRestart}
-          color={Colors.secondary}
-        />
+        <MainButton onPress={props.onRestart}>New Game</MainButton>
       </View>
     </View>
   );

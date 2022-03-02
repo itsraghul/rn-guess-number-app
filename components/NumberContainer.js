@@ -24,9 +24,9 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     color: Colors.primary,
     marginVertical: 10,
-    padding: 3,
-
-    fontSize: 22,
+    padding: 10,
+    fontFamily: 'garden-reg',
+    fontSize: 40,
     alignItems: 'center',
   },
 });
